@@ -1,0 +1,87 @@
+footer{
+    background-size: 100% 400px;
+    text-align: center;
+    padding: 50px 30px 0px 30px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+footer h4{
+    font-weight: 200;
+}
+
+footer ul{
+    margin: 0 auto;
+    max-width: 500px;
+    padding-left: 0;
+    justify-content: space-around;
+}
+footer ul li {
+    padding: 0 20px;
+    font-weight: 300;
+    float: left;
+    flex-direction: column;
+    min-height: 62px;
+    justify-content: space-between;
+    margin-top: 1rem;
+    list-style: none;
+}
+footer ul li a{
+    text-decoration:none;
+    color: white;
+}
+footer ul li a:hover{
+    text-decoration:none;
+    color: white;
+}
+.menu-nav{
+    margin-top:20px;
+}
+.menu-nav-bottom{
+  font-size: 15px;
+}
+.menu-nav ul{
+    max-width:none;
+}
+.menu-nav ul li{
+    padding: 4px;
+    font-weight: 400;
+    margin-top: 0px;
+    min-height: fit-content;
+    line-height: 30px;
+}
+.menu-nav ul li span{
+    font-size: 30px;
+    position: relative;
+    left: -3.5%;
+    top: -3px;
+    padding: 4px;
+}
+.footer-bg-img{
+    background-repeat:no-repeat;
+    background-color:#001E41;
+    
+  }
+
+.terms-condition{
+    margin-left: auto;
+}
+.terms-condition ul li{
+    margin-left: auto;
+    margin-top: 0px;
+    padding: 4px;
+}
+.ft-s-12{
+ font-size: 12px;
+}
+.mt-30{
+    margin-top: 30px !important;
+}
+@media only screen and (max-width: 600px) {
+    footer ul li {
+        padding: 0 6px;
+        
+    }
+    footer{
+        padding: 10px;
+    }
+}
